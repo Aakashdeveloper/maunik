@@ -1,0 +1,46 @@
+/**********************
+Step to create package.json
+*********************/
+1> Navigate to folder using command prompt
+2> npm init
+3> Answer all question
+4> Yes
+
+/**********************
+Step to install package
+*********************/
+Local packages 
+Global Package
+1> Navigate to folder using command prompt
+2> npm install <packagename>
+npm install @aakashdeveloper/create-node-app
+
+/**********************
+Step React App
+*********************/
+1> npm install -g create-react-app
+2> create-react-app <appname>
+3> cd <appname>
+4> npm start
+
+/************************************
+    Component in react
+************************************/
+Functional           |         ClassBased 
+-------------------------------------------------------------
+Light in weight      |         Heavy as compare to Functional
+cannot handle state  |         Can handle state
+Presentational       |         More logical 
+
+function add(a,b){
+    return a+b
+}
+
+const add = (a,b) => { return a+b }
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/maunik.git
+git push -u origin master

@@ -1,0 +1,19 @@
+{
+  "name": "learnmodules",
+  "version": "1.0.0",
+  "description": "this is about package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "react"
+  ],
+  "author": "maunik",
+  "license": "ISC",
+  "dependencies": {
+    "@aakashdeveloper/create-node-app": "^1.0.46",
+    "zone.js": "^0.9.1"
+  }
+}

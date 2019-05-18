@@ -40,7 +40,18 @@ const add = (a,b) => { return a+b }
 
 
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git remote add origin https://github.com/Aakashdeveloper/maunik.git
 git push -u origin master
+
+
+/************************************
+    State & Props 
+************************************/
+State                   Props
+>local Variable         >This help transfer the state
+
+
+A  <---------------Props---------------->B
+State1                                  State2

@@ -1,13 +1,31 @@
 import React, {Component} from 'react';
 
 class Header extends Component {
-    render(){
+    constructor(){
+        super()
 
+        this.state = {
+            title: 'React App',
+            keyword: 'User Text Here'
+        }
+    }
+
+    inputChanges(event){
+        console.log(event.target.value);
+        this.setState({keyword: event.target.value})
+        this.props.newsSearch( event.target.value)
+    } 
+        
+    render(){
         return(
             <header>
-                <div className="logo">Logo</div>
+                <div className="logo"
+                onClick={() => { console.log("hiii")}}>
+                    {this.state.title}
+                </div>
                 <center>
-                    <input/>
+                    <input onChange={this.inputChanges.bind(this)}/>
+                    <p>{this.state.keyword}</p>
                 </center>
             </header>
         )
